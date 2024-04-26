@@ -1,0 +1,84 @@
+.themeColor {
+    color: #ec2b25
+}
+.container h2 {
+    color: #ec2b25
+}
+.slide2 .content h2 {
+    color: #fff;
+    font-size: 60px;
+    float: left;
+    margin-top: 50%;
+    font-weight: 600;
+    line-height: 75px;
+    font-family: sans-serif
+}
+
+
+
+.innerHeader,.imgtravels {
+    position: fixed;
+    height: 60vh;
+    width: 100%;
+    background: url(/images/consumer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 60px;
+    z-index: 1;
+    position: static;
+}
+
+.innerHeader h1 {
+    color: #fff;
+    font-size: 64px;
+    padding: 0;
+    text-shadow: 0 0 8px rgba(0,0,0,.2);
+    margin-top: 30vh;
+    line-height: 68px;
+    font-weight: 100;
+    text-align: center
+}
+
+.sa-content .content {
+    width: auto;
+    height: auto;
+    position: relative
+}
+
+.sa-content {
+    padding-bottom: 30px
+}
+
+.sa-content .content ul li {
+    font-size: 18px
+}
+
+.sa-content h1 {
+    font-size: 30px;
+    font-weight: 600
+}
+
+.img-left {
+    width: 520px;
+    float: left;
+    margin: 10px 25px 20px 0
+}
+
+.img-right {
+    width: 520px;
+    float: right;
+    margin: 10px 0 20px 25px
+}
+
+.radius-lt {
+    border-radius: 0 50% 50% 50%;
+}
+
+.radius-rt {
+    border-radius: 50% 0 50% 50%;
+}
+
+.radius-lt img,.radius-rt img {
+    width: 100%
+}

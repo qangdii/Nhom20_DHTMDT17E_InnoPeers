@@ -1,0 +1,103 @@
+h1 {
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700
+}
+.innerHeader,.imgbanking {
+    position: fixed;
+    height: 60vh;
+    width: 100%;
+    background: url(/images/banking.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 60px;
+    z-index: 1;
+    position: static;
+}
+.innerHeader h1 {
+    color: #fff;
+    font-size: 64px;
+    padding: 0;
+    text-shadow: 0 0 8px rgba(0,0,0,.2);
+    margin-top: 30vh;
+    font-weight: 100;
+    line-height: 68px;
+    text-align: center;
+}
+.radius-lt {
+    border-radius: 0 50% 50% 50%;
+    overflow: hidden;
+}
+
+.radius-rt {
+    border-radius: 50% 0 50% 50%;
+    overflow: hidden;
+}
+
+.radius-lt img,.radius-rt img {
+    width: 100%;
+}
+.gridBoxStyle {
+    border: 1px solid #efefef;
+    padding: 25px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+.themeColor {
+    color: #ec2b25;
+    font-size: 50px;
+}
+.myulcheck { 
+    list-style:none; 
+    padding: 0; 
+    margin: 0px; 
+    display: inline-block; 
+    padding-right: 5px; 
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.myulcheck li:before { 
+    content: ''; 
+    width: 18px; 
+    height: 8px; 
+    position: absolute; 
+    top: 12px; left: -21px; 
+    border: 2px solid #ec2b25; 
+    border-top: none; 
+    border-right: none; 
+    background: transparent; 
+    transform: rotate(-45deg);
+}
+
+.myulcheck li { 
+    position: relative;
+    list-style:none; 
+    padding:2px; 
+    color: rgba(0,0,0,.5); 
+    font-size: 18px !important; 
+    line-height: 30px;
+}
+.aboutDivBtn{ 
+    max-width: 332px; 
+    margin: auto; 
+    margin-bottom: 50px;
+    padding: 0px 0px 20px 0px; 
+    }
+
+.aboutDivBtn .btn{
+    margin-left: 0px !important;
+    float: left !important; 
+    color: #eee; 
+    background-color: #fe664e;
+    border: 1px solid #eee;
+}
+
+.btn:hover{ 
+    color: #fe664e !important; 
+    background-color: transparent;
+    border: 1px solid #fe664e;
+}

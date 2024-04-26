@@ -1,0 +1,390 @@
+/* ---- grid-item ---- */
+
+.grid-item {
+    width: 50%;
+  }
+  
+  html, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #eee;
+  }
+  
+  p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #646464;
+    text-align: justify;
+  }
+  
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+input::-webkit-input-placeholder {
+color: #b9b9b9 !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+color: #b9b9b9 !important;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #b9b9b9 !important;
+}
+input:-ms-input-placeholder {  
+color: #b9b9b9 !important;  
+}
+    /* Real Estste Styles */
+    .flooringTxtCen{
+        background-image: url(../images/estate.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+    .bannerConRealEst{        
+        width: 485px; 
+        float: left; 
+        overflow: hidden; 
+        font-size: 30px; 
+        color: #ffffff; 
+        padding-top: 160px;
+    }
+     .bannerConRealEst h1{ 
+        margin: 0px; 
+        padding: 0px; 
+        font-size: 30px; 
+        color: #ffffff; 
+        text-align: left;
+    }
+    .breakTxtRE{ 
+        display: block;
+    }
+    .bigBanTxtRE{ 
+        font-size: 64px; 
+        font-weight: 500; 
+        line-height: 48px; 
+    }
+    .medBanTxtRE{ 
+        font-size: 40px; 
+        font-weight: 500  
+    }
+    .bannerColContDiv{
+        background: #ec2b25b3; 
+        margin-top: 5px; 
+        padding: 10px 20px; 
+        overflow: hidden; 
+        font-size: 20px;
+        color: #fff;
+    }
+    .bannerColContDiv ul { 
+        list-style: none; 
+        margin: 0px; 
+        padding:0px; }
+    .bannerColContDiv ul li { 
+        list-style: none; 
+        padding: 10px 0px 5px 20px; 
+        position: relative;}
+    .bannerColContDiv ul li:before{ 
+        content: ''; 
+        position: absolute; 
+        width: 18px; 
+        height: 18px; 
+        background: url(../images/tick.png); 
+        background-size: 18px; 
+        left: -3px; 
+        top: 16px; 
+    }
+
+    .realestateSection{ 
+        width: 1100px; 
+        overflow: hidden; 
+        margin: auto; 
+    }
+    .sectionPaddTopBtm{ 
+        padding:30px 0px; 
+    }
+    .aidaSecCol-1{ 
+        width:30%; 
+        float: left; 
+    }
+    .aidaSecCol-2{ 
+        width:66%; 
+        float: right; 
+        text-align: left; 
+    }
+    .aidaSecCol-2 h2{ 
+        font-size: 30px; 
+    }
+ 
+    
+    .realEstPackBg{
+        background: url(../images/estate-bg.jpg); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        margin-top: 50px;
+    } 
+    .realEstPackCol-1{
+        background:rgba(0,0,0,0.3); 
+        padding:40px 20px; 
+        color: #ffffff; 
+        width: 460px; 
+        box-sizing: border-box;
+    }
+    .realEstPackCol-1 h2{ 
+        font-size: 30px; 
+        text-align: center; 
+        color: #fe664e;
+        font-weight: 700;
+    }
+    .realEstPackCol-1 h2 span{ 
+        color: #ffffff; 
+        font-weight: 600; 
+    }
+    .realEstPackCol-1 ul{ 
+        list-style: none; 
+        margin: 0px; 
+        padding: 0px; 
+    }
+    .realEstPackCol-1 ul li{ 
+        padding:10px 30px; 
+        border-top:1px solid rgb(255,255,255,0.8); 
+        font-size: 15px; 
+    }
+
+    .aboutDivBtn{
+        padding-top: 15px;
+    }
+    .btn{
+        margin-top: 30px;
+        background-color: #fe664e;
+        color: #eee;
+    }
+    .approachRealEst{
+        margin-top: 50px;
+    }
+    .approachRealEst h2 {
+        text-align: center;
+        color:#ec2b25;
+    }
+    .gridBoxStyleEST {
+        border: 1px solid #ec2b25; 
+        padding:20px; 
+        margin-left: -1px; 
+        margin-bottom: -1px; 
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .approachCol-5{
+        -ms-flex:0 0 20%;
+        flex:0 0 20%;
+        max-width:20%; 
+        font-size: 22px; 
+        color:#ec2b25; 
+        line-height: 26px;
+        margin-top: 10px; 
+        float: left;
+    }
+    .approachIcon{
+        width: 76px; 
+        height: 76px; 
+        padding-bottom:10px; 
+        margin:auto;
+    }
+    .approachIcon img{ 
+        width: 100%;  
+    }
+
+    .expreinceBg{
+        background: url(../images/estate-bg-0.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden; 
+        padding: 50px 0px; 
+        text-align: center;
+        margin-top: 50px;
+    }
+    .experienceCol-5{
+        width:20%; 
+        font-size:34px; 
+        color:#ec2b25; 
+        line-height:30px; 
+        margin-top: 10px; 
+        float: left;
+        font-weight:600;
+    }
+    .experienceCol-5 span{ 
+        display: block; 
+        color: #ffffff; 
+        font-size: 18px; 
+        letter-spacing: 1px; 
+        font-weight: 500; 
+    }
+    .wrapperDiv{ 
+        max-width: 900px; 
+        margin:auto; 
+        color: #ffffff; 
+    }
+    .wrapperDiv p{ 
+        color: #ffffff; 
+    }
+    
+    /* ends Here */
+
+    @media only screen and (max-width: 1000px)
+    {
+        .flooringBg{
+            background-size: cover; 
+            height: 60vh; 
+            background-attachment: fixed;
+        }
+        .contenttopScroll{ 
+            margin-top: 50px; 
+        } 
+        /* Real Estate Styles */
+        .realestateSection{ 
+            margin: 30px 0px;
+            width: 100%; 
+            padding: 0px 10px; 
+            box-sizing: border-box; 
+        }   
+        .reasonsList {
+            width:100%; 
+            float: none;
+        }
+        /* Ends here */
+
+    }
+    @media only screen and (max-width: 740px){
+    .partnersDivMn h2{ 
+        font-size:26px; 
+    }
+    .partnerSmlTxt{ 
+        font-size:20px; 
+        line-height: 24px; 
+    }
+    .partnerForm{ 
+        width: 100%; 
+    }
+    .textBoxpartner, .partnerBtnSubmit{ 
+        width:100%; 
+        float: none; 
+        clear: both;
+    }
+    .partnersDivMn{ 
+        padding: 10px; 
+    }
+    .flooringWhite h2 span{ 
+        font-weight: 600; 
+        color:#ec2b25; 
+        display: block;
+    }
+    .brands, .footer { 
+        display: none; 
+    }
+
+    /* Real Estate Styles */
+    .aidaSecCol-1{ 
+        width:398px; 
+        float: none; 
+        margin:auto; 
+    }
+    .aidaSecCol-2{ 
+        width:100%; 
+        float: none; 
+    }
+    .reasonsList{
+        padding: 0px 0px 0px 0px;
+    }
+    .mobPaddZero{ 
+        padding: 0px !important; 
+    }
+    .realEstPackCol-1 ul li{ 
+        padding:10px; 
+        font-size: 20px; 
+    }
+    .approachCol-5{
+        max-width:100%; 
+        margin-top: 0px; 
+        float: none;
+    }
+    .expreinceMnDiv{ 
+        display: table; 
+        text-align: center; 
+    }
+    .experienceCol-5{
+        width:50%; 
+        padding:10px 0px 20px 0px; 
+        display: inline-block; 
+        float: none;
+    }
+    .expreinceBg{
+        background-size:cover;
+    }
+
+    /* Ends here */
+
+    }
+    @media only screen and (max-width: 640px)
+    {
+    .flooringWhite{ 
+        padding: 30px 0px 20px 0px; 
+        border-bottom: 1px solid #f1f1f1; 
+    }
+
+    /* Real Estate Styles*/
+    .bannerConRealEst{
+        width:98%; 
+        float: none; 
+        font-size:22px;
+    }
+    .bigBanTxtRE{ 
+        font-size:40px; 
+        line-height:30px; 
+    }
+    .medBanTxtRE{ 
+        font-size:24px; 
+        line-height:20px;
+    }
+    .flooringBg{
+        height: 100vh !important;
+    }  
+    .contenttopScroll{
+        margin: 30px 0px !important; 
+    } 
+    .bannerConRealEst{
+        padding-top: 98px;
+    }
+    .bannerColContDiv{ 
+        padding: 10px; 
+    }
+    .aidaSecCol-1{ 
+        width:320px; 
+    }
+    .realEstPackCol-1{
+        padding:20px 10px; 
+        width: 100%;
+    }
+
+    /* Ends here */
+    }
+  @media only screen and (max-width: 360px)
+    {
+    .developFeatureBox{ 
+        height:140px; 
+    }
+    }

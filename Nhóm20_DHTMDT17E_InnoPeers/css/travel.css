@@ -1,0 +1,87 @@
+.aboutDivBtn{ 
+    max-width: 332px; 
+    margin: auto; 
+    padding: 0px 0px 20px 0px; 
+    overflow: hidden; 
+    clear: both; }
+
+.aboutDivBtn .btn{
+    margin-left: 0px !important;
+    float: left !important; 
+    color: #eee; 
+    background-color: #fe664e;
+    border: 1px solid #eee;}
+
+.btn:hover{ 
+    color: #fe664e !important; 
+    background-color: transparent;
+    border: 1px solid #fe664e;}
+    
+
+@media only screen and (max-width: 640px)
+{
+.aboutDivBtn{ margin: auto !important;}
+}
+
+h1 {
+    color: #ec2b25;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300
+}
+
+h1 b {
+    font-weight: 600
+}
+
+.innerHeader,.imgtravels {
+    position: fixed;
+    height: 60vh;
+    width: 100%;
+    background: url(/images/travel.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 60px;
+    z-index: 1;
+    position: static;
+}
+
+.innerHeader h1 {
+    color: #fff;
+    font-size: 64px;
+    padding: 0;
+    text-shadow: 0 0 8px rgba(0,0,0,.2);
+    margin-top: 30vh;
+    line-height: 68px;
+    font-weight: 100;
+    text-align: center
+}
+
+.img-left {
+    width: 520px;
+    float: left;
+    margin: 10px 25px 20px 0
+}
+
+.img-right {
+    width: 520px;
+    float: right;
+    margin: 10px 0 20px 25px
+}
+
+.radius-lt {
+    border-radius: 0 50% 50% 50%;
+    overflow: hidden
+}
+
+.radius-rt {
+    border-radius: 50% 0 50% 50%;
+    overflow: hidden
+}
+
+.radius-lt img,.radius-rt img {
+    width: 100%
+}
+

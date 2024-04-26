@@ -1,0 +1,122 @@
+.flooringTxtCen{
+    background-image: url(../images/education.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.bannerConEdu{        
+    width: 460px; 
+    float: left; 
+    overflow: hidden; 
+    font-size: 30px; 
+    color: #ffffff; 
+    padding-top: 160px;
+}
+.bannerConEdu h1{ 
+    font-size: 30px; 
+    color: #ffffff; 
+    text-align: left;
+}
+.breakTxtRE{ 
+    display: block;
+}
+.bigBanTxtRE{ 
+    font-size: 64px; 
+    font-weight: 500; 
+    line-height: 48px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bannerColContDiv{
+    background: #ec2b25b3; 
+    margin-top: 5px; 
+    padding: 10px 20px; 
+    overflow: hidden; 
+    font-size: 20px;
+    color: #fff;
+}
+.bannerColContDiv p {
+    color: #fad9d4;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.bannerColContDiv ul { 
+    list-style: none; 
+    margin: 0px; 
+    padding:0px; 
+}
+.bannerColContDiv ul li { 
+    list-style: none; 
+    padding: 10px 0px 5px 20px; 
+    position: relative;
+}
+.bannerColContDiv ul li:before{ 
+    content: ''; 
+    position: absolute; 
+    width: 18px; 
+    height: 18px; 
+    background: url(../images/tick.png); 
+    background-size: 18px; 
+    left: -3px; 
+    top: 16px; 
+}
+
+.EduSection{ 
+    width: 100%; 
+    margin: 30px auto;
+}
+.aidaSecCol-1{ 
+    width:35%; 
+    margin-left: 30px;
+    float: left; 
+}
+.aidaSecCol-2{ 
+    width:60%; 
+    margin-right: 30px;
+    float: right; 
+    
+}
+.aidaSecCol-2 h2{ 
+    font-size: 30px; 
+    text-align: left;
+    margin-left: 30px; 
+    color: #fe664e;
+}
+.aidaSecCol-2 p{
+    text-align: justify;
+    margin-left: 30px;
+}
+h2 {
+    color: #fe664e;
+}
+.banner-edu{
+    background: url(../images/banner-edu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+}
+.aboutDivBtn{ 
+    max-width: 332px; 
+    margin: auto; 
+    margin-bottom: 30px;
+    padding: 0px 0px 20px 0px; 
+    }
+
+.aboutDivBtn .btn{
+    margin-left: 0px !important;
+    float: left !important; 
+    color: #eee; 
+    background-color: #fe664e;
+    border: 1px solid #eee;
+}
+
+.btn:hover{ 
+    color: #fe664e !important; 
+    background-color: transparent;
+    border: 1px solid #fe664e;
+}
